@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="text-xl font-bold text-sandBeige">Matthew Ryland</span>
+            <span className="text-xl font-bold text-sandBeige">Garry Payton Law</span>
           </Link>
 
           {/* Navigation */}
@@ -16,11 +16,11 @@ export function Header() {
             <Link href="/" className="text-sandBeige hover:text-warmGold transition-colors">
               Home
             </Link>
-            <Link href="/bio" className="text-sandBeige hover:text-warmGold transition-colors">
-              Bio
+            <Link href="/practice-areas" className="text-sandBeige hover:text-warmGold transition-colors">
+              Practice Areas
             </Link>
-            <Link href="/blog" className="text-sandBeige hover:text-warmGold transition-colors">
-              Blog
+            <Link href="/staff" className="text-sandBeige hover:text-warmGold transition-colors">
+              Our Team
             </Link>
             <Link href="/contact" className="text-sandBeige hover:text-warmGold transition-colors">
               Contact
