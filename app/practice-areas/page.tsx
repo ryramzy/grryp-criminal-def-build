@@ -29,13 +29,13 @@ export default function PracticeAreasPage() {
                 We challenge unlawful convictions and sentences through federal habeas corpus petitions, including:
               </p>
               <div className="space-y-6">
-                <div className="bg-midnight/50 p-6 rounded-lg border border-tealBlue/20">
+                <div className="bg-midnight/50 p-6 rounded-lg border-2 border-warmGold">
                   <h3 className="text-xl font-semibold mb-3 text-sandBeige">28 U.S.C. § 2241 Petitions</h3>
                   <p className="mb-4 text-tealBlue">
                     Filed in the district of incarceration, these petitions allege that a defendant's custody violates U.S. laws or treaties. We advocate for resentencing hearings where both defense and government present arguments, potentially leading to sentence reduction or release.
                   </p>
                 </div>
-                <div className="bg-midnight/50 p-6 rounded-lg border border-tealBlue/20">
+                <div className="bg-midnight/50 p-6 rounded-lg border-2 border-warmGold">
                   <h3 className="text-xl font-semibold mb-3 text-sandBeige">28 U.S.C. § 2255 Motions</h3>
                   <p className="mb-4 text-tealBlue">
                     Brought before the sentencing court, these motions seek to vacate, set aside, or correct sentences due to constitutional violations such as ineffective assistance of counsel, lack of court jurisdiction, or excessive punishment under the Eighth Amendment.
@@ -74,7 +74,7 @@ export default function PracticeAreasPage() {
               <h2 className="text-2xl font-semibold mb-4 text-sandBeige">Sentence Reduction & Clemency</h2>
               
               <div className="space-y-8">
-                <div className="bg-midnight/50 p-6 rounded-lg border border-tealBlue/20">
+                <div className="bg-midnight/50 p-6 rounded-lg border-2 border-warmGold">
                   <h3 className="text-xl font-semibold mb-3 text-sandBeige">Federal Sentence Reduction (First Step Act)</h3>
                   <p className="mb-4 text-tealBlue">
                     We pursue sentence reductions under the First Step Act of 2018, including:
@@ -91,7 +91,7 @@ export default function PracticeAreasPage() {
                   </Link>
                 </div>
 
-                <div className="bg-midnight/50 p-6 rounded-lg border border-tealBlue/20">
+                <div className="bg-midnight/50 p-6 rounded-lg border-2 border-warmGold">
                   <h3 className="text-xl font-semibold mb-3 text-sandBeige">Executive Clemency & Pardons</h3>
                   <p className="mb-4 text-tealBlue">
                     We prepare thorough commutation and pardon petitions showcasing rehabilitation, community contributions, and mitigating life factors.
@@ -104,7 +104,7 @@ export default function PracticeAreasPage() {
                   </Link>
                 </div>
 
-                <div className="bg-midnight/50 p-6 rounded-lg border border-tealBlue/20">
+                <div className="bg-midnight/50 p-6 rounded-lg border-2 border-warmGold">
                   <h3 className="text-xl font-semibold mb-3 text-sandBeige">Substantial Assistance & Rule 35 Motions</h3>
                   <p className="mb-4 text-tealBlue">
                     For clients assisting federal investigations, we file Rule 35(b) motions for sentence reductions, ensuring proper documentation and strategic timing.
@@ -124,7 +124,7 @@ export default function PracticeAreasPage() {
               <h2 className="text-2xl font-semibold mb-4 text-sandBeige">Compassionate & Humanitarian Release</h2>
               
               <div className="space-y-8">
-                <div className="bg-midnight/50 p-6 rounded-lg border border-tealBlue/20">
+                <div className="bg-midnight/50 p-6 rounded-lg border-2 border-warmGold">
                   <h3 className="text-xl font-semibold mb-3 text-sandBeige">Compassionate Release Petitions</h3>
                   <p className="mb-4 text-tealBlue">
                     Filed under 18 U.S.C. § 3582(c)(1)(A) for reasons like:
@@ -145,7 +145,7 @@ export default function PracticeAreasPage() {
                   </Link>
                 </div>
 
-                <div className="bg-midnight/50 p-6 rounded-lg border border-tealBlue/20">
+                <div className="bg-midnight/50 p-6 rounded-lg border-2 border-warmGold">
                   <h3 className="text-xl font-semibold mb-3 text-sandBeige">Elderly & Terminally Ill Inmate Advocacy</h3>
                   <p className="mb-4 text-tealBlue">Focused on:</p>
                   <ul className="list-disc pl-6 mb-4 text-tealBlue space-y-2">
@@ -167,7 +167,7 @@ export default function PracticeAreasPage() {
             <section className="mb-12">
               <h2 className="text-2xl font-semibold mb-4 text-sandBeige">BOP Advocacy & Transition</h2>
               
-              <div className="bg-midnight/50 p-6 rounded-lg border border-tealBlue/20">
+              <div className="bg-midnight/50 p-6 rounded-lg border-2 border-warmGold">
                 <h3 className="text-xl font-semibold mb-3 text-sandBeige">BOP Advocacy & Home Confinement</h3>
                 <p className="mb-4 text-tealBlue">We assist with:</p>
                 <ul className="list-disc pl-6 mb-4 text-tealBlue space-y-2">

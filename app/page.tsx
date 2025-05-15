@@ -13,18 +13,19 @@ export default function Page() {
       <Header />
       <main className="pt-16">
         {/* Full-Screen Hero Section */}
-        <div className="relative h-screen w-full">
+        <div className="relative h-screen w-full bg-midnight">
           <Image
             src="/hero.jpeg"
             alt="Garry Payton Law background"
             fill
-            className="object-cover"
+            className="object-cover object-center z-0"
             priority
+            style={{ zIndex: 0 }}
           />
-          <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-10 transition-all duration-300">
             <div className="text-center text-white px-6">
-              <h1 className="text-4xl md:text-6xl font-bold">Garry Payton Law</h1>
-              <p className="mt-4 text-lg md:text-2xl max-w-2xl mx-auto">
+              <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg">Garry Payton Law</h1>
+              <p className="mt-4 text-lg md:text-2xl max-w-2xl mx-auto drop-shadow-lg">
                 Fierce Criminal Defense • Federal Sentence Relief • Since 1987
               </p>
             </div>
