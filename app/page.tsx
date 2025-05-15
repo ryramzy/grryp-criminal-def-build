@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { Header } from './components/header'
-import { Hero } from './components/hero'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Garry Payton Law | Criminal Defense Attorney',
@@ -12,7 +12,24 @@ export default function Page() {
     <div className="min-h-screen bg-midnight">
       <Header />
       <main className="pt-16">
-        <Hero />
+        {/* Full-Screen Hero Section */}
+        <div className="relative h-screen w-full">
+          <Image
+            src="/hero.jpeg"
+            alt="Garry Payton Law background"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <div className="text-center text-white px-6">
+              <h1 className="text-4xl md:text-6xl font-bold">Garry Payton Law</h1>
+              <p className="mt-4 text-lg md:text-2xl max-w-2xl mx-auto">
+                Fierce Criminal Defense • Federal Sentence Relief • Since 1987
+              </p>
+            </div>
+          </div>
+        </div>
         <section className="max-w-4xl mx-auto px-4 py-16">
           <div className="prose prose-neutral dark:prose-invert">
             <h1 className="text-3xl font-bold mb-8 text-sandBeige">Welcome to Garry Payton Law</h1>
