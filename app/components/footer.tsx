@@ -17,45 +17,18 @@ function ArrowIcon() {
 
 export default function Footer() {
   return (
-    <footer className="mb-16">
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="/rss"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">rss</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/vercel/next.js"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://vercel.com/templates/next.js/portfolio-starter-kit"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
-          </a>
-        </li>
-      </ul>
-      <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} MIT Licensed
-      </p>
+    <footer className="bg-midnight/80 backdrop-blur-sm border-t border-tealBlue/20 mt-16">
+      <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+        <div className="text-center">
+          <p className="text-base text-sandBeige">
+            © {new Date().getFullYear()} Garry Payton Law |{' '}
+            <a href="tel:+19164614837" className="text-warmGold hover:text-softRed">
+              (916) 461-4837
+            </a>{' '}
+            | Serving Sacramento and surrounding areas
+          </p>
+        </div>
+      </div>
     </footer>
   )
 }
