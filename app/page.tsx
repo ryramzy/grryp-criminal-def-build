@@ -30,6 +30,29 @@ export default function Page() {
             </div>
           </div>
         </div>
+
+        {/* About Us Card Section */}
+        <section className="flex justify-center px-4 -mt-16 z-10 relative">
+          <div className="bg-midnight rounded-2xl shadow-lg p-6 md:p-10 max-w-xl w-full border border-tealBlue/20">
+            <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-4">About Us</h2>
+            <p className="text-white text-center font-semibold mb-4">We handle serious federal drug cases — and win.</p>
+            <p className="text-white text-center mb-4">
+              At Garry Payton Law, we specialize in defending individuals facing the most severe drug-related charges in both state and federal courts. With a track record of courtroom success and a fearless approach to high-stakes litigation, our firm is committed to delivering transformative outcomes, not just legal representation.
+            </p>
+            <p className="text-white text-center mb-4">
+              Led by Attorney Garry Payton, a veteran criminal defense lawyer with over three decades of experience, we blend legal precision with strategic innovation to navigate the complex realities of today&apos;s justice system. We don&apos;t back down from challenges — we redefine them.
+            </p>
+            <div className="flex justify-center mt-6">
+              <a
+                href="/staff"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full transition-colors text-lg shadow"
+              >
+                Meet Our Staff
+              </a>
+            </div>
+          </div>
+        </section>
+
         <section className="max-w-4xl mx-auto px-4 py-16">
           <div className="prose prose-neutral dark:prose-invert">
             <h1 className="text-3xl font-bold mb-8 text-sandBeige">Welcome to Garry Payton Law</h1>
