@@ -15,36 +15,44 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://garrypaytonlaw.com'),
   title: {
-    default: 'Matthew Ryland - Builder, Strategist, Advocate',
-    template: '%s | Matthew Ryland'
+    default: 'Garry Payton Law | Criminal Defense Attorney',
+    template: '%s | Garry Payton Law'
   },
-  description: 'Builder, Strategist, and Advocate bridging gaps between communities, information, and opportunities through storytelling, innovation, and public service.',
-  keywords: ['Matthew Ryland', 'Technology', 'Innovation', 'Public Service', 'Accessibility', 'Journalism', 'Policy'],
-  authors: [{ name: 'Matthew Ryland' }],
-  creator: 'Matthew Ryland',
-  publisher: 'Matthew Ryland',
+  description: 'Experienced criminal defense attorney serving Sacramento and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
+  keywords: ['Garry Payton', 'Criminal Defense', 'Sacramento', 'Attorney', 'Legal Representation', 'Criminal Law'],
+  authors: [{ name: 'Garry Payton' }],
+  creator: 'Garry Payton',
+  publisher: 'Garry Payton',
   formatDetection: {
     email: false,
     address: false,
   },
-  metadataBase: new URL('https://matthewryland.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://matthewryland.com',
-    siteName: 'Matthew Ryland',
-    title: 'Matthew Ryland - Builder, Strategist, Advocate',
-    description: 'Builder, Strategist, and Advocate bridging gaps between communities, information, and opportunities.',
+    url: 'https://garrypaytonlaw.com',
+    siteName: 'Garry Payton Law',
+    title: 'Garry Payton Law | Criminal Defense Attorney',
+    description: 'Experienced criminal defense attorney serving Sacramento and surrounding areas.',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Garry Payton Law'
+      }
+    ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Matthew Ryland - Builder, Strategist, Advocate',
-    description: 'Builder, Strategist, and Advocate bridging gaps between communities, information, and opportunities.',
-    creator: '@rammases2',
+    title: 'Garry Payton Law | Criminal Defense Attorney',
+    description: 'Experienced criminal defense attorney serving Sacramento and surrounding areas.',
+    images: ['/og-image.jpg']
   },
   robots: {
     index: true,

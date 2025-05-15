@@ -1,19 +1,19 @@
 {
-  "name": "Matthew Ryland Law Firm",
-  "short_name": "Matthew Ryland",
-  "description": "Experienced legal representation for your needs.",
+  "name": "Garry Payton Law",
+  "short_name": "Garry Payton Law",
+  "description": "Criminal Defense Attorney serving Sacramento and surrounding areas",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
   "icons": [
     {
-      "src": "/android-chrome-192x192.png",
+      "src": "/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/android-chrome-512x512.png",
+      "src": "/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
