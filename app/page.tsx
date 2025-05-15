@@ -1,5 +1,11 @@
+import { Metadata } from 'next'
 import { Header } from './components/header'
 import { Hero } from './components/hero'
+
+export const metadata: Metadata = {
+  title: 'Garry Payton Law | Criminal Defense Attorney',
+  description: 'Experienced criminal defense attorney serving Sacramento and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
+}
 
 export default function Page() {
   return (
@@ -9,12 +15,12 @@ export default function Page() {
         <Hero />
         <section className="max-w-4xl mx-auto px-4 py-16">
           <div className="prose prose-neutral dark:prose-invert">
-            <h1 className="text-3xl font-bold mb-8 text-sandBeige">Welcome to My World</h1>
+            <h1 className="text-3xl font-bold mb-8 text-sandBeige">Welcome to Garry Payton Law</h1>
             <p className="mb-6 text-tealBlue">
-              I've always believed in the power of storytelling, innovation, and public service to create real impact. Whether it's through journalism, tech, or policy, my journey has been about bridging gaps—between communities, information, and opportunities. From co-founding Vngle, a decentralized news network, to researching global democratization, to building solutions at the intersection of technology and society, my work is driven by a commitment to making systems more inclusive, accessible, and effective.
+              With decades of experience in criminal defense, we are committed to protecting your rights and providing expert legal representation. Our team understands that facing criminal charges can be overwhelming, and we're here to guide you through every step of the process.
             </p>
             <p className="mb-6 text-tealBlue">
-              This site is a place to explore my projects, thoughts, and the work I've done across media, technology, and public service. If you're interested in collaboration or just want to connect, reach out—let's build something meaningful together.
+              We believe in personalized attention and aggressive defense strategies tailored to your unique situation. Whether you're facing misdemeanor or felony charges, our experienced attorneys will fight tirelessly to achieve the best possible outcome for your case.
             </p>
           </div>
         </section>
@@ -23,11 +29,11 @@ export default function Page() {
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-base text-sandBeige">
-              Matthew Ryland |{' '}
+              Garry Payton Law |{' '}
               <a href="tel:+19164614837" className="text-warmGold hover:text-softRed">
                 (916) 461-4837
               </a>{' '}
-              | Let's connect and push boundaries together
+              | Serving Sacramento and surrounding areas
             </p>
           </div>
         </div>
