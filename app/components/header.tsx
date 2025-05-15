@@ -20,7 +20,7 @@ export function Header() {
               Practice Areas
             </Link>
             <Link href="/staff" className="text-sandBeige hover:text-warmGold transition-colors">
-              Our Team
+              Staff
             </Link>
             <Link href="/contact" className="text-sandBeige hover:text-warmGold transition-colors">
               Contact
