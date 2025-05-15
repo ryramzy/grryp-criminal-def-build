@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-// Header component for Matthew Ryland's website
+// Header component for Garry Payton Law website
 export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-midnight/80 backdrop-blur-sm border-b border-tealBlue/20">
