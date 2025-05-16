@@ -20,13 +20,22 @@ export default function Footer() {
     <footer className="bg-midnight/80 backdrop-blur-sm border-t border-tealBlue/20 mt-16">
       <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <p className="text-base text-sandBeige">
-            © {new Date().getFullYear()} Garry Payton Law |{' '}
-            <a href="tel:+19164614837" className="text-warmGold hover:text-softRed">
-              (916) 461-4837
-            </a>{' '}
-            | Serving Sacramento and surrounding areas
+          <p className="text-base text-sandBeige font-semibold">
+            © {new Date().getFullYear()} Garry Payton Law
           </p>
+          <div className="mt-2 text-sandBeige text-sm">
+            <div>Law Offices of Garry A Payton</div>
+            <div>320 West Ohio St</div>
+            <div>Chicago, IL 60614</div>
+            <div>US</div>
+            <div>
+              tel: <a href="tel:+13126710751" className="text-warmGold hover:text-softRed">+1 312-671-0751</a>
+            </div>
+            <div>
+              <a href="mailto:garry.payton@gmail.com" className="text-warmGold hover:text-softRed">garry.payton@gmail.com</a>
+            </div>
+            <div className="mt-2">Serving throughout the United States and its territories</div>
+          </div>
         </div>
       </div>
     </footer>
