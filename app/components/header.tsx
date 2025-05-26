@@ -30,7 +30,7 @@ export function Header() {
           {/* Call Button */}
           <div className="flex items-center">
             <a
-              href="tel:+19164614837"
+              href="tel:+13126710751"
               className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-sandBeige bg-softRed hover:bg-warmGold transition-colors"
             >
               Call Now
