@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Staff | Garry Payton Law',
@@ -15,10 +16,14 @@ export default function StaffPage() {
 
             {/* Attorney Section */}
             <div className="mb-12 flex flex-col md:flex-row items-center bg-midnight/70 border border-tealBlue/20 rounded-xl shadow p-6 md:p-8 gap-6 md:gap-10">
-              {/* Profile Picture Placeholder */}
-              <div className="flex-shrink-0 w-32 h-32 rounded-full bg-gray-700 flex items-center justify-center text-4xl text-sandBeige font-bold border-4 border-warmGold">
-                {/* Replace with <Image /> when photo is available */}
-                GP
+              <div className="flex-shrink-0 w-32 h-32 rounded-full overflow-hidden border-4 border-warmGold">
+                <Image
+                  src="/payton-headshot.jpeg"
+                  alt="Garry A. Payton"
+                  width={128}
+                  height={128}
+                  className="object-cover w-full h-full"
+                />
               </div>
               <div>
                 <h2 className="text-2xl font-semibold text-warmGold mb-2">Garry A. Payton</h2>
@@ -34,10 +39,14 @@ export default function StaffPage() {
 
             {/* Paralegal Section */}
             <div className="flex flex-col md:flex-row items-center bg-midnight/70 border border-tealBlue/20 rounded-xl shadow p-6 md:p-8 gap-6 md:gap-10">
-              {/* Profile Picture Placeholder */}
-              <div className="flex-shrink-0 w-32 h-32 rounded-full bg-gray-700 flex items-center justify-center text-4xl text-sandBeige font-bold border-4 border-warmGold">
-                {/* Replace with <Image /> when photo is available */}
-                MS
+              <div className="flex-shrink-0 w-32 h-32 rounded-full overflow-hidden border-4 border-warmGold">
+                <Image
+                  src="/sulivan-headshot.jpeg"
+                  alt="Matthew G. Sullivan"
+                  width={128}
+                  height={128}
+                  className="object-cover w-full h-full"
+                />
               </div>
               <div>
                 <h2 className="text-2xl font-semibold text-warmGold mb-2">Matthew G. Sullivan</h2>

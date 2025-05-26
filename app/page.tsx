@@ -66,19 +66,6 @@ export default function Page() {
           </div>
         </section>
       </main>
-      <footer className="bg-midnight/80 backdrop-blur-sm border-t border-tealBlue/20">
-        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <p className="text-base text-sandBeige">
-              Garry Payton Law |{' '}
-              <a href="tel:+19164614837" className="text-warmGold hover:text-softRed">
-                (916) 461-4837
-              </a>{' '}
-              | Serving Sacramento and surrounding areas
-            </p>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }
