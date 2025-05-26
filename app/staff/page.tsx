@@ -18,7 +18,7 @@ export default function StaffPage() {
             <div className="mb-12 flex flex-col md:flex-row items-center bg-midnight/70 border border-tealBlue/20 rounded-xl shadow p-6 md:p-8 gap-6 md:gap-10">
               <div className="flex-shrink-0 w-32 h-32 rounded-full overflow-hidden border-4 border-warmGold">
                 <Image
-                  src="/payton-headshot.jpeg"
+                  src="/payton-headshot.jpg"
                   alt="Garry A. Payton"
                   width={128}
                   height={128}
@@ -41,7 +41,7 @@ export default function StaffPage() {
             <div className="flex flex-col md:flex-row items-center bg-midnight/70 border border-tealBlue/20 rounded-xl shadow p-6 md:p-8 gap-6 md:gap-10">
               <div className="flex-shrink-0 w-32 h-32 rounded-full overflow-hidden border-4 border-warmGold">
                 <Image
-                  src="/sulivan-headshot.jpeg"
+                  src="/sulivan-headshot.jpg"
                   alt="Matthew G. Sullivan"
                   width={128}
                   height={128}
