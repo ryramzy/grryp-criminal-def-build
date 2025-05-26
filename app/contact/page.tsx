@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Garry Payton Law',
-  description: 'Get in touch with our legal team for assistance with your case.',
+  description: 'Get in touch with our legal team for assistance with your case, including Federal Sentence relief and drug convictions.',
 }
 
 export default function ContactPage() {
@@ -13,25 +13,33 @@ export default function ContactPage() {
           <div className="prose prose-neutral dark:prose-invert">
             <h1 className="text-3xl font-bold mb-8 text-sandBeige">Contact Us</h1>
             <p className="mb-4 text-tealBlue">
-              We're here to help. Please don't hesitate to reach out to us for any
-              legal assistance or questions you may have.
+              Please reach out to us regarding your legal needs, especially if you require assistance with Federal Sentence relief or drug convictions. We are here to provide expert legal representation.
             </p>
             <div className="mt-8">
               <h2 className="text-xl font-semibold mb-4 text-sandBeige">Contact Information</h2>
               <p className="mb-2 text-tealBlue">
+                <strong>Law Offices of Garry A Payton</strong>
+              </p>
+              <p className="mb-2 text-tealBlue">
+                320 West Ohio St
+              </p>
+               <p className="mb-2 text-tealBlue">
+                Chicago, IL 60614
+              </p>
+               <p className="mb-2 text-tealBlue">
+                US
+              </p>
+              <p className="mb-2 text-tealBlue">
                 <strong>Phone:</strong>{' '}
-                <a href="tel:+19164614837" className="text-warmGold hover:text-softRed">
-                  (916) 461-4837
+                <a href="tel:+13126710751" className="text-warmGold hover:text-softRed">
+                  +1 312-671-0751
                 </a>
               </p>
               <p className="mb-2 text-tealBlue">
                 <strong>Email:</strong>{' '}
-                <a href="mailto:contact@garrypaytonlaw.com" className="text-warmGold hover:text-softRed">
-                  contact@garrypaytonlaw.com
+                <a href="mailto:staff@garrypaytonlaw.com" className="text-warmGold hover:text-softRed">
+                  staff@garrypaytonlaw.com
                 </a>
-              </p>
-              <p className="mb-2 text-tealBlue">
-                <strong>Location:</strong> Sacramento, California
               </p>
             </div>
             <div className="mt-8">
