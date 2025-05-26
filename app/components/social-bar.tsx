@@ -6,7 +6,7 @@ export function SocialBar() {
       <div className="max-w-7xl mx-auto px-4 py-3">
         <div className="flex justify-center space-x-6">
           <Link
-            href="https://www.linkedin.com/in/matthew-r-72288390/"
+            href="https://www.linkedin.com/in/garry-payton-93b57233/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sandBeige hover:text-warmGold transition-colors"
@@ -16,7 +16,7 @@ export function SocialBar() {
             </svg>
           </Link>
           <Link
-            href="https://x.com/rammases2"
+            href="https://x.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sandBeige hover:text-warmGold transition-colors"
@@ -26,7 +26,7 @@ export function SocialBar() {
             </svg>
           </Link>
           <Link
-            href="https://www.youtube.com/@ryramzy"
+            href="https://www.youtube.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sandBeige hover:text-warmGold transition-colors"
