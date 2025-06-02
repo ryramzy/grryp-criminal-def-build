@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function ArrowIcon() {
   return (
     <svg
@@ -21,7 +23,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-base text-sandBeige font-semibold">
-            © {new Date().getFullYear()} Garry Payton Law
+            © {new Date().getFullYear()} Garry Payton Law. All rights reserved.
           </p>
           <div className="mt-2 text-sandBeige text-sm">
             <div>Law Offices of Garry A Payton</div>
@@ -29,12 +31,21 @@ export default function Footer() {
             <div>Chicago, IL 60614</div>
             <div>US</div>
             <div>
-              tel: <a href="tel:+13126710751" className="text-warmGold hover:text-softRed">+1 312-671-0751</a>
+              tel: <a href="tel:+13126710751" className="text-warmGold hover:text-softRed focus:outline-none focus:ring-2 focus:ring-warmGold rounded">+1 312-671-0751</a>
             </div>
             <div>
-              <a href="mailto:garry.payton@gmail.com" className="text-warmGold hover:text-softRed">garry.payton@gmail.com</a>
+              <a href="mailto:garry.payton@gmail.com" className="text-warmGold hover:text-softRed focus:outline-none focus:ring-2 focus:ring-warmGold rounded">garry.payton@gmail.com</a>
             </div>
             <div className="mt-2">Serving throughout the United States and its territories</div>
+          </div>
+          <div className="mt-4 text-sm text-sandBeige">
+            <Link 
+              href="/privacy-policy" 
+              className="text-warmGold hover:text-softRed focus:outline-none focus:ring-2 focus:ring-warmGold rounded"
+              aria-label="View our privacy policy"
+            >
+              Privacy Policy
+            </Link>
           </div>
         </div>
       </div>
