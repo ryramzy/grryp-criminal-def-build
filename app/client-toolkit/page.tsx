@@ -59,22 +59,22 @@ const emergencyContacts = [
   {
     category: "Local Courts",
     contacts: [
-      { name: "Sacramento County Superior Court", number: "(916) 874-5522" },
-      { name: "Federal Court - Eastern District", number: "(916) 930-4000" }
+      { name: "Cook County Circuit Court", number: "(312) 603-5030" },
+      { name: "Federal Court - Northern District", number: "(312) 435-5500" }
     ]
   },
   {
     category: "Local Jails",
     contacts: [
-      { name: "Sacramento County Main Jail", number: "(916) 874-6752" },
-      { name: "Rio Cosumnes Correctional Center", number: "(916) 874-6752" }
+      { name: "Cook County Jail", number: "(773) 674-5240" },
+      { name: "Metropolitan Correctional Center", number: "(312) 751-7500" }
     ]
   },
   {
     category: "Emergency Resources",
     contacts: [
-      { name: "Firm Emergency Line (24/7)", number: "(916) 555-0123" },
-      { name: "Legal Aid Services", number: "(916) 551-2150" }
+      { name: "Firm Emergency Line (24/7)", number: "(312) 671-0751" },
+      { name: "Illinois Legal Aid", number: "(312) 341-1070" }
     ]
   }
 ]
