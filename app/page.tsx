@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { Header } from './components/header'
 import Image from 'next/image'
 import { Testimonials } from './components/testimonials'
+import { SuccessStories } from './components/success-stories'
 
 export const metadata: Metadata = {
   title: 'Garry Payton Law | Criminal Defense Attorney',
@@ -74,6 +75,9 @@ export default function Page() {
 
         {/* Testimonials Section */}
         <Testimonials />
+
+        {/* Success Stories Section */}
+        <SuccessStories />
 
         {/* Practice Areas Preview */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-midnight/50">
