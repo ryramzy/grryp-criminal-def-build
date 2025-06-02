@@ -66,6 +66,12 @@ export function Header() {
               Staff
             </Link>
             <Link 
+              href="/faq" 
+              className="block md:inline-block py-2 md:py-0 text-sandBeige hover:text-warmGold transition-colors"
+            >
+              FAQ
+            </Link>
+            <Link 
               href="/contact" 
               className="block md:inline-block py-2 md:py-0 text-sandBeige hover:text-warmGold transition-colors"
             >
