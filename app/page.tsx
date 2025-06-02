@@ -1,10 +1,16 @@
 import { Metadata } from 'next'
 import { Header } from './components/header'
 import Image from 'next/image'
+import { Testimonials } from './components/testimonials'
 
 export const metadata: Metadata = {
   title: 'Garry Payton Law | Criminal Defense Attorney',
   description: 'Experienced criminal defense attorney serving Sacramento and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
+  openGraph: {
+    title: 'Garry Payton Law | Criminal Defense Attorney',
+    description: 'Experienced criminal defense attorney serving Sacramento and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
+    type: 'website',
+  },
 }
 
 export default function Page() {
@@ -63,6 +69,58 @@ export default function Page() {
             <p className="mb-6 text-white">
               We believe in personalized attention and aggressive defense strategies tailored to your unique situation. Whether you're facing misdemeanor or felony charges, our experienced attorneys will fight tirelessly to achieve the best possible outcome for your case.
             </p>
+          </div>
+        </section>
+
+        {/* Testimonials Section */}
+        <Testimonials />
+
+        {/* Practice Areas Preview */}
+        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-midnight/50">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-center text-sandBeige mb-12">Practice Areas</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-midnight/50 p-6 rounded-lg border-2 border-warmGold/30">
+                <h3 className="text-xl font-semibold text-warmGold mb-4">Federal Sentencing</h3>
+                <p className="text-white mb-4">
+                  Expert representation in federal court, focusing on minimizing sentences and protecting your rights.
+                </p>
+                <a
+                  href="/practice-areas"
+                  className="text-warmGold hover:text-softRed transition-colors"
+                >
+                  Learn More →
+                </a>
+              </div>
+              <div className="bg-midnight/50 p-6 rounded-lg border-2 border-warmGold/30">
+                <h3 className="text-xl font-semibold text-warmGold mb-4">Compassionate Release</h3>
+                <p className="text-white mb-4">
+                  Helping eligible clients seek early release based on medical conditions, age, or family circumstances.
+                </p>
+                <a
+                  href="/practice-areas"
+                  className="text-warmGold hover:text-softRed transition-colors"
+                >
+                  Learn More →
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Call to Action */}
+        <section className="py-16 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-sandBeige mb-6">Ready to Get Started?</h2>
+            <p className="text-white text-lg mb-8">
+              Contact us today for a confidential consultation about your case.
+            </p>
+            <a
+              href="/contact"
+              className="inline-block px-8 py-4 bg-warmGold text-midnight rounded-md hover:bg-softRed transition-colors focus:outline-none focus:ring-2 focus:ring-warmGold font-semibold text-lg"
+            >
+              Contact Us Now
+            </a>
           </div>
         </section>
       </main>
