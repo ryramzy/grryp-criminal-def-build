@@ -12,30 +12,30 @@ export default function ContactPage() {
         <section className="max-w-4xl mx-auto px-4 py-16">
           <div className="prose prose-neutral dark:prose-invert">
             <h1 className="text-3xl font-bold mb-8 text-sandBeige">Contact Us</h1>
-            <p className="mb-4 text-tealBlue">
+            <p className="mb-4 text-white">
               Please reach out to us regarding your legal needs, especially if you require assistance with Federal Sentence relief or drug convictions. We are here to provide expert legal representation.
             </p>
             <div className="mt-8">
               <h2 className="text-xl font-semibold mb-4 text-sandBeige">Contact Information</h2>
-              <p className="mb-2 text-tealBlue">
+              <p className="mb-2 text-white">
                 <strong>Law Offices of Garry A Payton</strong>
               </p>
-              <p className="mb-2 text-tealBlue">
+              <p className="mb-2 text-white">
                 320 West Ohio St
               </p>
-               <p className="mb-2 text-tealBlue">
+               <p className="mb-2 text-white">
                 Chicago, IL 60614
               </p>
-               <p className="mb-2 text-tealBlue">
+               <p className="mb-2 text-white">
                 US
               </p>
-              <p className="mb-2 text-tealBlue">
+              <p className="mb-2 text-white">
                 <strong>Phone:</strong>{' '}
                 <a href="tel:+13126710751" className="text-warmGold hover:text-softRed">
                   +1 312-671-0751
                 </a>
               </p>
-              <p className="mb-2 text-tealBlue">
+              <p className="mb-2 text-white">
                 <strong>Email:</strong>{' '}
                 <a href="mailto:staff@garrypaytonlaw.com" className="text-warmGold hover:text-softRed">
                   staff@garrypaytonlaw.com
@@ -46,7 +46,7 @@ export default function ContactPage() {
               <h2 className="text-xl font-semibold mb-4 text-sandBeige">Send us a Message</h2>
               <form className="space-y-4">
                 <div>
-                  <label htmlFor="name" className="block mb-1 text-tealBlue">Name</label>
+                  <label htmlFor="name" className="block mb-1 text-white">Name</label>
                   <input
                     type="text"
                     id="name"
@@ -56,7 +56,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block mb-1 text-tealBlue">Email</label>
+                  <label htmlFor="email" className="block mb-1 text-white">Email</label>
                   <input
                     type="email"
                     id="email"
@@ -66,7 +66,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="message" className="block mb-1 text-tealBlue">Message</label>
+                  <label htmlFor="message" className="block mb-1 text-white">Message</label>
                   <textarea
                     id="message"
                     name="message"
