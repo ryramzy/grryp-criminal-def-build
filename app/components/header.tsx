@@ -1,12 +1,28 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
 
 // Header component for Garry Payton Law website
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const pathname = usePathname()
+
+  // Close mobile menu when route changes
+  useEffect(() => {
+    setIsMenuOpen(false)
+  }, [pathname])
+
+  const navLinks = [
+    { href: '/', label: 'Home' },
+    { href: '/practice-areas', label: 'Practice Areas' },
+    { href: '/staff', label: 'Staff' },
+    { href: '/contact', label: 'Contact' },
+    { href: '/faq', label: 'FAQ' },
+    { href: '/client-toolkit', label: 'Client Toolkit' },
+  ]
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-midnight/95 backdrop-blur-sm border-b border-warmGold/20">
@@ -21,54 +37,30 @@ export function Header() {
               height={40}
               className="h-10 w-auto"
             />
-            <span className="ml-2 text-white font-semibold">Garry Payton Law</span>
+            <span className="ml-2 text-sandBeige font-semibold">Garry Payton Law</span>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link
-              href="/"
-              className="text-white hover:text-warmGold transition-colors"
-            >
-              Home
-            </Link>
-            <Link
-              href="/practice-areas"
-              className="text-white hover:text-warmGold transition-colors"
-            >
-              Practice Areas
-            </Link>
-            <Link
-              href="/staff"
-              className="text-white hover:text-warmGold transition-colors"
-            >
-              Staff
-            </Link>
-            <Link
-              href="/faq"
-              className="text-white hover:text-warmGold transition-colors"
-            >
-              FAQ
-            </Link>
-            <Link
-              href="/client-toolkit"
-              className="text-white hover:text-warmGold transition-colors"
-            >
-              Client Toolkit
-            </Link>
-            <Link
-              href="/contact"
-              className="text-white hover:text-warmGold transition-colors"
-            >
-              Contact
-            </Link>
+            {navLinks.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                className={`text-sandBeige hover:text-warmGold transition-colors ${
+                  pathname === href ? 'text-warmGold font-semibold' : ''
+                }`}
+              >
+                {label}
+              </Link>
+            ))}
           </nav>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-white hover:text-warmGold transition-colors"
+            className="md:hidden text-sandBeige hover:text-warmGold transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
+            aria-expanded={isMenuOpen}
           >
             <svg
               className="h-6 w-6"
@@ -90,49 +82,19 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden py-4 space-y-4">
-            <Link
-              href="/"
-              className="block text-white hover:text-warmGold transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Home
-            </Link>
-            <Link
-              href="/practice-areas"
-              className="block text-white hover:text-warmGold transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Practice Areas
-            </Link>
-            <Link
-              href="/staff"
-              className="block text-white hover:text-warmGold transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Staff
-            </Link>
-            <Link
-              href="/faq"
-              className="block text-white hover:text-warmGold transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              FAQ
-            </Link>
-            <Link
-              href="/client-toolkit"
-              className="block text-white hover:text-warmGold transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Client Toolkit
-            </Link>
-            <Link
-              href="/contact"
-              className="block text-white hover:text-warmGold transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Contact
-            </Link>
+          <nav className="md:hidden py-4 space-y-4 border-t border-warmGold/20">
+            {navLinks.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                className={`block text-sandBeige hover:text-warmGold transition-colors ${
+                  pathname === href ? 'text-warmGold font-semibold' : ''
+                }`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {label}
+              </Link>
+            ))}
           </nav>
         )}
       </div>

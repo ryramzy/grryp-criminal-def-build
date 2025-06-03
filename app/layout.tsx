@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import { SocialBar } from './components/social-bar'
 import { PreloadResources } from './components/preload-resources'
 import { Metadata } from 'next'
-import { Navbar } from './components/nav'
+import { Header } from './components/header'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
@@ -81,8 +81,8 @@ export default function RootLayout({
         <PreloadResources />
       </head>
       <body className={`${inter.className} bg-midnight text-sandBeige min-h-screen flex flex-col`}>
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
-          <Navbar />
+        <Header />
+        <main className="flex-auto min-w-0 flex flex-col px-2 md:px-0">
           {children}
           <Footer />
           <Analytics />
