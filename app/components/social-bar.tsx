@@ -17,7 +17,7 @@ export function SocialBar() {
             </svg>
           </Link>
           <Link
-            href="https://www.facebook.com/garrypaytonlaw"
+            href="https://www.facebook.com/share/16DPEiGVup/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sandBeige hover:text-warmGold transition-colors"
