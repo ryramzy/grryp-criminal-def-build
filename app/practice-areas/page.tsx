@@ -3,7 +3,12 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Practice Areas | Garry Payton Law',
-  description: 'Expert criminal defense and post-conviction relief services in Sacramento. Specializing in habeas corpus, sentence modification, and compassionate release.',
+  description: 'Expert criminal defense and post-conviction relief services in Chicago. Specializing in habeas corpus, sentence modification, and compassionate release.',
+  openGraph: {
+    title: 'Practice Areas | Garry Payton Law',
+    description: 'Expert criminal defense and post-conviction relief services in Chicago. Specializing in habeas corpus, sentence modification, and compassionate release.',
+    type: 'website',
+  },
 }
 
 export default function PracticeAreasPage() {

@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     default: 'Garry Payton Law | Criminal Defense Attorney',
     template: '%s | Garry Payton Law'
   },
-  description: 'Experienced criminal defense attorney serving Sacramento and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
-  keywords: ['Garry Payton', 'Criminal Defense', 'Sacramento', 'Attorney', 'Legal Representation', 'Criminal Law'],
+  description: 'Experienced criminal defense attorney serving Chicago and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
+  keywords: ['Garry Payton', 'Criminal Defense', 'Chicago', 'Attorney', 'Legal Representation', 'Criminal Law'],
   authors: [{ name: 'Garry Payton' }],
   creator: 'Garry Payton',
   publisher: 'Garry Payton',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     url: 'https://garrypaytonlaw.com',
     siteName: 'Garry Payton Law',
     title: 'Garry Payton Law | Criminal Defense Attorney',
-    description: 'Experienced criminal defense attorney serving Sacramento and surrounding areas.',
+    description: 'Experienced criminal defense attorney serving Chicago and surrounding areas.',
     images: [
       {
         url: '/og-image.jpg',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Garry Payton Law | Criminal Defense Attorney',
-    description: 'Experienced criminal defense attorney serving Sacramento and surrounding areas.',
+    description: 'Experienced criminal defense attorney serving Chicago and surrounding areas.',
     images: ['/og-image.jpg']
   },
   robots: {

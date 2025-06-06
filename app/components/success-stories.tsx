@@ -17,12 +17,12 @@ export function SuccessStories() {
               <h3 className="text-xl md:text-2xl font-semibold text-warmGold mb-2">
                 2022 Murder Charge Dismissed
               </h3>
-              <p className="text-white/90 text-sm mb-4">Sacramento County</p>
+              <p className="text-white/90 text-sm mb-4">Cook County, Illinois</p>
             </div>
 
             <div className="prose prose-neutral dark:prose-invert max-w-none">
               <p className="text-white mb-4">
-                In 2022, our client was wrongfully accused of a serious criminal offense — first-degree murder. Thanks to Attorney Garry Payton's relentless defense strategy, deep legal knowledge, and meticulous attention to detail, the case was fully dismissed. The client walked away with their life and future intact.
+                In 2022, our client was wrongfully accused of first-degree murder. After a hard-fought jury trial, Attorney Garry Payton's strategic defense and thorough investigation led to a full acquittal. The jury returned a not-guilty verdict, and the client walked away with their life and future intact.
               </p>
               
               <blockquote className="border-l-4 border-warmGold pl-4 my-6 italic text-white/90">

@@ -27,7 +27,7 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   <div>
                     <h3 className="text-lg font-medium text-warmGold">Address</h3>
-                    <p className="text-white">123 Legal Street<br />Chicago, IL 60601</p>
+                    <p className="text-white">320 West Ohio Street, Suite 3W<br />Chicago, Illinois 60654</p>
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-warmGold">Phone</h3>
@@ -61,7 +61,7 @@ export default function ContactPage() {
               {/* Google Maps Embed */}
               <div className="h-[400px] rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.1227425499997!2d-87.6319268!3d41.8781136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1645564759431!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.1227425499997!2d-87.6319268!3d41.8781136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2s320%20W%20Ohio%20St%2C%20Chicago%2C%20IL%2060654!5e0!3m2!1sen!2sus!4v1645564759431!5m2!1sen!2sus"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -69,7 +69,7 @@ export default function ContactPage() {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Office Location"
-                  aria-label="Map showing our office location in Chicago"
+                  aria-label="Map showing our office location at 320 West Ohio Street, Suite 3W, Chicago, Illinois 60654"
                 />
               </div>
             </div>

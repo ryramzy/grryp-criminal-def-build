@@ -27,8 +27,8 @@ export default function Footer() {
           </p>
           <div className="mt-2 text-sandBeige text-sm">
             <div>Law Offices of Garry A Payton</div>
-            <div>320 West Ohio St</div>
-            <div>Chicago, IL 60614</div>
+            <div>320 West Ohio Street, Suite 3W</div>
+            <div>Chicago, Illinois 60654</div>
             <div>US</div>
             <div>
               tel: <a href="tel:+13126710751" className="text-warmGold hover:text-softRed focus:outline-none focus:ring-2 focus:ring-warmGold rounded">+1 312-671-0751</a>

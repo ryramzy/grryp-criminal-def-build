@@ -6,10 +6,10 @@ import { SuccessStories } from './components/success-stories'
 
 export const metadata: Metadata = {
   title: 'Garry Payton Law | Criminal Defense Attorney',
-  description: 'Experienced criminal defense attorney serving Sacramento and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
+  description: 'Experienced criminal defense attorney serving Chicago and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
   openGraph: {
     title: 'Garry Payton Law | Criminal Defense Attorney',
-    description: 'Experienced criminal defense attorney serving Sacramento and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
+    description: 'Experienced criminal defense attorney serving Chicago and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
     type: 'website',
   },
 }
