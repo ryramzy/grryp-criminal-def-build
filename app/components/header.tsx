@@ -32,7 +32,7 @@ export function Header() {
           <Link href="/" className="flex items-center">
             <Image
               src="/logo.jpg"
-              alt="Garry Payton Law"
+              alt="Law Offices of Garry A. Payton logo"
               width={40}
               height={40}
               className="h-10 w-auto"
