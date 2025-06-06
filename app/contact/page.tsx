@@ -34,9 +34,9 @@ export default function ContactPage() {
                     <a 
                       href="tel:+13126710751" 
                       className="text-white hover:text-warmGold transition-colors"
-                      aria-label="Call us at +1 312-671-0751"
+                      aria-label="Call us at 312-671-0751"
                     >
-                      (312) 671-0751
+                      312-671-0751
                     </a>
                   </div>
                   <div>
