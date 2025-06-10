@@ -35,7 +35,8 @@ export function Header() {
               alt="Law Offices of Garry A. Payton logo"
               width={40}
               height={40}
-              className="h-10 w-auto"
+              className="h-10 w-10 object-contain"
+              priority
             />
             <span className="ml-2 text-sandBeige font-semibold">Garry Payton Law</span>
           </Link>

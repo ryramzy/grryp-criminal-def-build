@@ -22,7 +22,7 @@ export default function Page() {
         {/* Full-Screen Hero Section */}
         <div className="relative h-screen w-full bg-midnight">
           <Image
-            src="/hero-2.jpg"
+            src="/hero-landing-3.jpg"
             alt="Garry Payton Law background"
             fill
             className="object-cover object-center z-0"
