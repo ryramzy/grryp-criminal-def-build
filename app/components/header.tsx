@@ -38,7 +38,7 @@ export function Header() {
               className="h-10 w-10 object-contain"
               priority
             />
-            <span className="ml-2 text-sandBeige font-semibold">Garry Payton Law</span>
+            <span className="ml-2 text-sandBeige font-semibold">Garry A. Payton Law</span>
           </Link>
 
           {/* Desktop Navigation */}

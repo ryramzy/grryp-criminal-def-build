@@ -17,14 +17,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://garrypaytonlaw.com'),
   title: {
-    default: 'Garry Payton Law | Criminal Defense Attorney',
-    template: '%s | Garry Payton Law'
+    default: 'Garry A. Payton Law | Criminal Defense Attorney',
+    template: '%s | Garry A. Payton Law'
   },
   description: 'Experienced criminal defense attorney serving Chicago and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
-  keywords: ['Garry Payton', 'Criminal Defense', 'Chicago', 'Attorney', 'Legal Representation', 'Criminal Law'],
-  authors: [{ name: 'Garry Payton' }],
-  creator: 'Garry Payton',
-  publisher: 'Garry Payton',
+  keywords: ['Garry A. Payton', 'Criminal Defense', 'Chicago', 'Attorney', 'Legal Representation', 'Criminal Law'],
+  authors: [{ name: 'Garry A. Payton' }],
+  creator: 'Garry A. Payton',
+  publisher: 'Garry A. Payton',
   formatDetection: {
     email: false,
     address: false,
@@ -36,21 +36,21 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://garrypaytonlaw.com',
-    siteName: 'Garry Payton Law',
-    title: 'Garry Payton Law | Criminal Defense Attorney',
+    siteName: 'Garry A. Payton Law',
+    title: 'Garry A. Payton Law | Criminal Defense Attorney',
     description: 'Experienced criminal defense attorney serving Chicago and surrounding areas.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Garry Payton Law'
+        alt: 'Garry A. Payton Law'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Garry Payton Law | Criminal Defense Attorney',
+    title: 'Garry A. Payton Law | Criminal Defense Attorney',
     description: 'Experienced criminal defense attorney serving Chicago and surrounding areas.',
     images: ['/og-image.jpg']
   },

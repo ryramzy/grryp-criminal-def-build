@@ -5,10 +5,10 @@ import { Testimonials } from './components/testimonials'
 import { SuccessStories } from './components/success-stories'
 
 export const metadata: Metadata = {
-  title: 'Garry Payton Law | Criminal Defense Attorney',
+  title: 'Garry A. Payton Law | Criminal Defense Attorney',
   description: 'Experienced criminal defense attorney serving Chicago and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
   openGraph: {
-    title: 'Garry Payton Law | Criminal Defense Attorney',
+    title: 'Garry A. Payton Law | Criminal Defense Attorney',
     description: 'Experienced criminal defense attorney serving Chicago and surrounding areas. Dedicated to protecting your rights and providing expert legal representation.',
     type: 'website',
   },
@@ -30,7 +30,7 @@ export default function Page() {
         <div className="relative h-screen w-full bg-midnight">
           <Image
             src="/hero-landing-3.jpg"
-            alt="Garry Payton Law background"
+            alt="Garry A. Payton Law background"
             fill
             className="object-cover object-center z-0"
             priority
@@ -38,7 +38,7 @@ export default function Page() {
           />
           <div className="absolute inset-0 bg-black/60 backdrop-blur-xs flex items-center justify-center z-10 transition-all duration-300">
             <div className="text-center text-white px-6">
-              <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg">Garry Payton Law</h1>
+              <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg">Garry A. Payton Law</h1>
               <p className="mt-4 text-lg md:text-2xl max-w-2xl mx-auto drop-shadow-lg">
                 Fierce Criminal Defense • Federal Sentence Relief • Since 1987
               </p>
@@ -52,7 +52,7 @@ export default function Page() {
             <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-4">About Us</h2>
             <p className="text-white text-center font-semibold mb-4">We handle serious federal drug cases — and win.</p>
             <p className="text-white text-center mb-4">
-              At Garry Payton Law, we specialize in defending individuals facing the most severe drug-related charges in both state and federal courts. With a track record of courtroom success and a fearless approach to high-stakes litigation, our firm is committed to delivering transformative outcomes, not just legal representation.
+              At Garry A. Payton Law, we specialize in defending individuals facing the most severe drug-related charges in both state and federal courts. With a track record of courtroom success and a fearless approach to high-stakes litigation, our firm is committed to delivering transformative outcomes, not just legal representation.
             </p>
             <p className="text-white text-center mb-4">
               Led by Attorney Garry Payton, a veteran criminal defense lawyer with over three decades of experience, we blend legal precision with strategic innovation to navigate the complex realities of today&apos;s justice system. We don&apos;t back down from challenges — we redefine them.
@@ -70,7 +70,7 @@ export default function Page() {
 
         <section className="max-w-4xl mx-auto px-4 py-16">
           <div className="prose prose-neutral dark:prose-invert">
-            <h1 className="text-3xl font-bold mb-8 text-sandBeige">Welcome to Garry Payton Law</h1>
+            <h1 className="text-3xl font-bold mb-8 text-sandBeige">Welcome to Garry A. Payton Law</h1>
             <p className="mb-6 text-white">
               With decades of experience in criminal defense, we are committed to protecting your rights and providing expert legal representation. Our team understands that facing criminal charges can be overwhelming, and we're here to guide you through every step of the process.
             </p>

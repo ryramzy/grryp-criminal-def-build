@@ -23,10 +23,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-base text-sandBeige font-semibold">
-            © {new Date().getFullYear()} Garry Payton Law. All rights reserved.
+            © {new Date().getFullYear()} Garry A. Payton Law. All rights reserved.
           </p>
           <div className="mt-2 text-sandBeige text-sm">
-            <div>Law Offices of Garry A Payton</div>
+            <div>Law Offices of Garry A. Payton</div>
             <div>320 West Ohio Street, Suite 3W</div>
             <div>Chicago, Illinois 60654</div>
             <div>US</div>
