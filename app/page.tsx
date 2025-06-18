@@ -17,6 +17,13 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <div className="min-h-screen bg-midnight">
+      {/* Floating Garry Payton Profile Image */}
+      <img
+        src="/payton-headshot.jpg"
+        alt="Attorney Garry Payton"
+        className="fixed bottom-4 left-4 w-16 h-16 rounded-full border-2 border-white shadow-md z-50 hidden sm:block"
+        aria-hidden="true"
+      />
       <Header />
       <main className="pt-16">
         {/* Full-Screen Hero Section */}
