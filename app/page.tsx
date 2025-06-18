@@ -21,7 +21,7 @@ export default function Page() {
       <img
         src="/payton-headshot.jpg"
         alt="Attorney Garry Payton"
-        className="fixed bottom-4 left-4 w-16 h-16 rounded-full border-2 border-white shadow-md z-50 hidden sm:block"
+        className="fixed left-2 bottom-1/2 translate-y-1/2 w-12 h-12 rounded-full border-2 border-white shadow-md z-50 sm:left-4 sm:bottom-4 sm:translate-y-0 sm:w-16 sm:h-16"
         aria-hidden="true"
       />
       <Header />
