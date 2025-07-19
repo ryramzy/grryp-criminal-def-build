@@ -15,14 +15,14 @@ export function SuccessStories() {
           <div className="space-y-6">
             <div>
               <h3 className="text-xl md:text-2xl font-semibold text-warmGold mb-2">
-                2022 Murder Charge Dismissed
+                2022 Attempted First Degree Murder Charge Dismissed
               </h3>
               <p className="text-white/90 text-sm mb-4">Cook County, Illinois</p>
             </div>
 
             <div className="prose prose-neutral dark:prose-invert max-w-none">
               <p className="text-white mb-4">
-                In 2022, our client was wrongfully accused of first-degree murder. After a hard-fought jury trial, Attorney Garry Payton's strategic defense and thorough investigation led to a full acquittal. The jury returned a not-guilty verdict, and the client walked away with their life and future intact.
+                In 2022, our client was wrongfully accused of attempted first-degree murder. After a hard-fought jury trial, Attorney Garry Payton's strategic defense and thorough investigation led to a full acquittal. The jury returned a not-guilty verdict, and the client walked away with their life and future intact.
               </p>
               
               <blockquote className="border-l-4 border-warmGold pl-4 my-6 italic text-white/90">

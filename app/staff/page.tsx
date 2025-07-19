@@ -40,9 +40,10 @@ export default function StaffPage() {
                   <div>
                     <h3 className="text-lg font-medium text-warmGold mb-2">Bar Admissions</h3>
                     <ul className="list-disc list-inside text-white space-y-1">
-                      <li>Illinois State Bar (2000)</li>
+                      <li>Illinois State Bar (1987)</li>
                       <li>U.S. District Court, Northern District of Illinois</li>
                       <li>U.S. Court of Appeals, 7th Circuit</li>
+                      <li>U.S. Court of Appeals, 8th Circuit</li>
                       <li>U.S. Supreme Court</li>
                     </ul>
                   </div>
@@ -50,8 +51,8 @@ export default function StaffPage() {
                   <div>
                     <h3 className="text-lg font-medium text-warmGold mb-2">Education</h3>
                     <ul className="list-disc list-inside text-white space-y-1">
-                      <li>Juris Doctor, University of Illinois College of Law</li>
-                      <li>Bachelor of Arts, Political Science, University of Chicago</li>
+                      <li>Juris Doctor, University of Minnesota</li>
+                      <li>Bachelor of Arts, Political Science, Southern Illinois University</li>
                     </ul>
                   </div>
 
@@ -62,15 +63,6 @@ export default function StaffPage() {
                       <li>Illinois State Bar Association</li>
                       <li>Chicago Bar Association</li>
                       <li>National Association of Criminal Defense Lawyers</li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h3 className="text-lg font-medium text-warmGold mb-2">Awards & Recognition</h3>
-                    <ul className="list-disc list-inside text-white space-y-1">
-                      <li>Super Lawyers - Criminal Defense (2018-2023)</li>
-                      <li>Best Lawyers in America - Criminal Defense (2019-2023)</li>
-                      <li>Martindale-Hubbell AV Preeminent Rating</li>
                     </ul>
                   </div>
                 </div>
