@@ -29,6 +29,7 @@ export function Header() {
     { href: '/', label: 'Home' },
     { href: '/practice-areas', label: 'Practice Areas' },
     { href: '/staff', label: 'Staff' },
+    { href: '/blog', label: 'Blog' },
     { href: '/contact', label: 'Contact' },
     { href: '/faq', label: 'FAQ' },
     { href: '/client-toolkit', label: 'Client Toolkit' },
