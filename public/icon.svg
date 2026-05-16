@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#000000"/>
+  <g transform="translate(256, 256)">
+    <!-- Scale base -->
+    <rect x="-8" y="100" width="16" height="150" fill="#f59e0b"/>
+    <rect x="-60" y="240" width="120" height="20" rx="4" fill="#f59e0b"/>
+    
+    <!-- Scale arm -->
+    <rect x="-150" y="-10" width="300" height="12" rx="6" fill="#f59e0b"/>
+    
+    <!-- Center pivot -->
+    <circle cx="0" cy="-4" r="16" fill="#f59e0b"/>
+    <circle cx="0" cy="-4" r="8" fill="#000000"/>
+    
+    <!-- Left pan -->
+    <g transform="translate(-130, 20)">
+      <line x1="0" y1="0" x2="0" y2="60" stroke="#f59e0b" stroke-width="4"/>
+      <ellipse cx="0" cy="80" rx="50" ry="30" fill="none" stroke="#f59e0b" stroke-width="6"/>
+      <ellipse cx="0" cy="80" rx="40" ry="20" fill="#f59e0b" opacity="0.3"/>
+    </g>
+    
+    <!-- Right pan -->
+    <g transform="translate(130, 20)">
+      <line x1="0" y1="0" x2="0" y2="60" stroke="#f59e0b" stroke-width="4"/>
+      <ellipse cx="0" cy="80" rx="50" ry="30" fill="none" stroke="#f59e0b" stroke-width="6"/>
+      <ellipse cx="0" cy="80" rx="40" ry="20" fill="#f59e0b" opacity="0.3"/>
+    </g>
+    
+    <!-- Decorative elements -->
+    <circle cx="-130" cy="80" r="8" fill="#f59e0b"/>
+    <circle cx="130" cy="80" r="8" fill="#f59e0b"/>
+  </g>
+</svg>
