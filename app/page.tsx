@@ -46,15 +46,8 @@ export default function Page() {
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center animate-scale-in">
                 <a
-                  href="/contact"
-                  className="btn text-lg px-8 py-4"
-                  aria-label="Contact us for a consultation"
-                >
-                  Get Free Consultation
-                </a>
-                <a
                   href="/practice-areas"
-                  className="btn-secondary text-lg px-8 py-4"
+                  className="btn text-lg px-8 py-4"
                   aria-label="Learn about our practice areas"
                 >
                   Our Services
