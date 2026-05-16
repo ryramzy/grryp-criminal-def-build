@@ -32,6 +32,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  icons: {
+    icon: '/icon.svg',
+    apple: '/icon.svg',
+  },
+  manifest: '/manifest.json',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -79,6 +84,8 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <PreloadResources />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={`${inter.className} bg-midnight text-sandBeige min-h-screen flex flex-col`}>
         <Header />
