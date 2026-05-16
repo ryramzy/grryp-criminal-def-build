@@ -7,48 +7,52 @@ export const metadata = {
 
 export default function BlogPage() {
   return (
-    <main className="min-h-screen bg-black text-white px-6 py-24">
-      <div className="max-w-6xl mx-auto">
-        <h1 className="text-5xl font-bold mb-8 text-warmGold">
-          Legal Insights & Sentence Reduction News
-        </h1>
+    <>
+      <main className="min-h-screen bg-black text-white px-6 py-24">
+        <div className="max-w-6xl mx-auto">
+          <h1 className="text-5xl font-bold mb-8 text-warmGold">
+            Legal Insights & Sentence Reduction News
+          </h1>
 
-        <p className="text-lg text-gray-300 mb-12">
-          Updates on federal sentence reduction, compassionate release,
-          post-conviction relief, and criminal defense strategy.
-        </p>
+          <p className="text-lg text-gray-300 mb-12">
+            Updates on federal sentence reduction, compassionate release,
+            post-conviction relief, and criminal defense strategy.
+          </p>
 
-        <div id="soro-blog" />
-      </div>
+          <div id="soro-blog" />
+        </div>
 
-      <Script
-        src="https://app.trysoro.com/api/embed/9b6d48a8-d96c-4305-b527-5b7301ac8088"
-        defer
-      />
+        <Script
+          src="https://app.trysoro.com/api/embed/9b6d48a8-d96c-4305-b527-5b7301ac8088"
+          defer
+        />
+      </main>
 
-      <style jsx global>{`
-        #soro-blog * {
-          color: #ffffff !important;
-          font-weight: 500 !important;
-        }
-        #soro-blog p,
-        #soro-blog span,
-        #soro-blog div {
-          color: #ffffff !important;
-          opacity: 1 !important;
-        }
-        #soro-blog a {
-          color: #f59e0b !important;
-          font-weight: 600 !important;
-        }
-        #soro-blog h1,
-        #soro-blog h2,
-        #soro-blog h3,
-        #soro-blog h4 {
-          color: #f59e0b !important;
-          font-weight: 700 !important;
-        }
-      `}</style>
-    </main>
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          #soro-blog * {
+            color: #ffffff !important;
+            font-weight: 500 !important;
+          }
+          #soro-blog p,
+          #soro-blog span,
+          #soro-blog div {
+            color: #ffffff !important;
+            opacity: 1 !important;
+          }
+          #soro-blog a {
+            color: #f59e0b !important;
+            font-weight: 600 !important;
+          }
+          #soro-blog h1,
+          #soro-blog h2,
+          #soro-blog h3,
+          #soro-blog h4 {
+            color: #f59e0b !important;
+            font-weight: 700 !important;
+          }
+        `
+      }} />
+    </>
   );
 }
