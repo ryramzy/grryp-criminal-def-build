@@ -18,13 +18,37 @@ export default function BlogPage() {
           post-conviction relief, and criminal defense strategy.
         </p>
 
-        <div id="soro-blog"></div>
+        <div id="soro-blog" />
       </div>
 
       <Script
         src="https://app.trysoro.com/api/embed/9b6d48a8-d96c-4305-b527-5b7301ac8088"
         defer
       />
+
+      <style jsx global>{`
+        #soro-blog * {
+          color: #ffffff !important;
+          font-weight: 500 !important;
+        }
+        #soro-blog p,
+        #soro-blog span,
+        #soro-blog div {
+          color: #ffffff !important;
+          opacity: 1 !important;
+        }
+        #soro-blog a {
+          color: #f59e0b !important;
+          font-weight: 600 !important;
+        }
+        #soro-blog h1,
+        #soro-blog h2,
+        #soro-blog h3,
+        #soro-blog h4 {
+          color: #f59e0b !important;
+          font-weight: 700 !important;
+        }
+      `}</style>
     </main>
   );
 }
