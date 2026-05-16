@@ -1,0 +1,17 @@
+SEO Blog Integration - May 15, 2026
+
+Changes:
+- Replaced existing blog page with Soro widget integration
+- Added Blog navigation link to header component
+- Used Next.js Script component for external script loading
+- Configured metadata for SEO targeting federal sentence reduction keywords
+
+Technical Details:
+- Removed 'use client' directive to allow metadata export
+- Implemented proper Next.js Script component for Soro API
+- Target keywords: federal sentence reduction, First Step Act, compassionate release, post-conviction relief
+
+Deployment:
+- Successfully deployed to Vercel
+- Build completed successfully
+- Live at /blog route
