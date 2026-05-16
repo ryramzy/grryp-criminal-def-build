@@ -1,0 +1,6 @@
+UPDATE - May 15, 2026 (10:03 PM):
+- Deployment successful after fixing next-mdx-remote security vulnerability
+- Updated next-mdx-remote to latest version (commit e81bf93)
+- Vercel deployment now working correctly
+- Soro blog widget live and functional
+- All SEO blog integration changes deployed successfully
