@@ -15,7 +15,7 @@ export function SuccessStories() {
           <div className="space-y-6">
             <div>
               <h3 className="text-xl md:text-2xl font-semibold text-warmGold mb-2">
-                After a week long jury trial the jury found him not guilty on all accounts
+                Not Guilty on All Counts After Week-Long Jury Trial
               </h3>
               <p className="text-white/90 text-sm mb-4">Cook County, Illinois</p>
             </div>
@@ -27,7 +27,7 @@ export function SuccessStories() {
               
               <blockquote className="border-l-4 border-warmGold pl-4 my-6 italic text-white/90">
                 "I was facing life behind bars, but Garry believed in me and never gave up. I owe him everything."
-                <footer className="mt-2 text-warmGold">— Former Client</footer>
+                <footer className="mt-2 text-warmGold">— Patrick N.</footer>
               </blockquote>
 
               <p className="text-white mb-6 font-semibold">
