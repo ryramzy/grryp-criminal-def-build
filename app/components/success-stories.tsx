@@ -52,7 +52,7 @@ export function SuccessStories() {
               <div className="prose prose-neutral dark:prose-invert max-w-none">
                 <blockquote className="border-l-4 border-warmGold pl-4 my-6 italic text-white/90">
                   "I was charged with a serious drug case, facing 40 years in prison based on my prior background. The case went to jury trial, where Attorney Garry Payton was successful in getting not guilty verdicts on all counts. I was able to return to my wife and kids that day."
-                  <footer className="mt-2 text-warmGold">— Former Client</footer>
+                  <footer className="mt-2 text-warmGold">— B. Evans</footer>
                 </blockquote>
               </div>
             </div>
