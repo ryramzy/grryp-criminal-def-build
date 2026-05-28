@@ -15,7 +15,7 @@ export function SuccessStories() {
           <div className="space-y-6">
             <div>
               <h3 className="text-xl md:text-2xl font-semibold text-warmGold mb-2">
-                2022 Attempted First Degree Murder Charge Dismissed
+                After a week long jury trial the jury found him not guilty on all accounts
               </h3>
               <p className="text-white/90 text-sm mb-4">Cook County, Illinois</p>
             </div>
